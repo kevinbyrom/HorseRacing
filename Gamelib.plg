@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gamelib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP7360.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Gamelib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Game Source\HorseRacing\MainStage.cpp"
+"D:\Game Source\HorseRacing\GameLib\Source\View.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7360.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7361.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /machine:I386 /out:"Release/Gamelib.exe" 
+".\Release\Bitmap.obj"
+".\Release\DXBitmap.obj"
+".\Release\FXPalette.obj"
+".\Release\Sprite.obj"
+".\Release\Text.obj"
+".\Release\Memory.obj"
+".\Release\WinMain.obj"
+".\Release\DisplayHandler2D.obj"
+".\Release\DXDisplayHandler2D.obj"
+".\Release\DXInputHandler.obj"
+".\Release\Game2D.obj"
+".\Release\Timer.obj"
+".\Release\Wnd.obj"
+".\Release\WndStage.obj"
+".\Release\MapCtl.obj"
+".\Release\Cursor.obj"
+".\Release\Map.obj"
+".\Release\BetsStage.obj"
+".\Release\Game.obj"
+".\Release\Horse.obj"
+".\Release\Layer.obj"
+".\Release\MainStage.obj"
+".\Release\MapLayer.obj"
+".\Release\Player.obj"
+".\Release\Race.obj"
+".\Release\Scoreboard.obj"
+".\Release\ScoreLayer.obj"
+".\Release\ShowHorsesStage.obj"
+".\Release\ShowTrackStage.obj"
+".\Release\ShowWinsStage.obj"
+".\Release\SpriteLayer.obj"
+".\Release\Track.obj"
+".\Release\View.obj"
+".\DirectX\Libraries\dxguid.lib"
+".\DirectX\Libraries\Dinput.lib"
+".\DirectX\Libraries\ddraw.lib"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7361.TMP"
+<h3>Output Window</h3>
+Compiling...
+MainStage.cpp
+D:\Game Source\HorseRacing\MainStage.cpp(86) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(92) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(93) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(93) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(94) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(94) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(95) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Game Source\HorseRacing\MainStage.cpp(137) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Gamelib.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
